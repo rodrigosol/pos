@@ -10,7 +10,7 @@ set :deploy_to, "/app/pos_api"
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 set :scm, :git
-set :repository, "git@github.com:rarolabs/pos.git"
+set :repository, "git@github.com:rodrigosol/pos.git"
 set :branch, "master"
 #set :deploy_via, :remote_cache
 set :git_shallow_clone, 1
